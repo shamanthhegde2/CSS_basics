@@ -1,0 +1,148 @@
+/***********Tag Selector**************/
+/*Always search for browser default css to know the css style applied by the browser and do the changes necessary*/
+/*a tag can have more than one class but id is unique so only one can be used*/
+
+
+/*background-color css property is used to change the bg color of the html tag which has some height and width*/
+body{
+    background-color: aqua;
+}
+
+/*height and width css property is used to change heright and width of an element*/
+/*border-style is used to change the style of the border*/
+/*to change the specific side of the border we have
+   1)border-top-style
+   2)border-right-style
+   3)border-left-style
+   4)border-bottom-style
+/*border-width is used to change the width of the boreder*/
+/*border-color is used to change the color of the border*/
+/*border-radius is used to make an image circular for example border-radius:100%*/
+hr{
+    /*height:10px;*/
+    width: 5%;
+    border-style: dotted none none none;
+    border-width: 7px;
+    border-color: tomato;
+}
+
+/*color property is used to change the color of the text*/
+/*font-size is used to change the size of the font*/
+h2{
+    color: violet;
+}
+/*height,width,border-color,border-width,border-style,font-size,margin,margin-top,margin-bottom,margin-left,margin-right,margin,padding,padding-top,padding-bottom,padding-left,padding-right*/
+/*border:10px solid red;*/
+/*padding only pads the content not the background image or the color*/
+/*psuedo class for ex:- :hover*/
+/* margin affect only top and bottom in inline elements and not on the sides*/
+hr
+{
+  height: 0px;
+  width: 4%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: red;
+}
+body{
+  background-color: yellow;
+}
+/* Text css */
+h1,h2,h3,h4,h5,h6{
+  color: blue;  /*change the text color */
+  background-color: green;/*change the background color*/
+  text-align: center;/*aligns the text at the center*/
+}
+h1 {
+  text-decoration: overline; /*line over text*/
+}
+
+h2 {
+  text-decoration: line-through;/*line passing through text*/
+}
+
+h3 {
+  text-decoration: underline;/*put underline below the text*/
+}
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: lowercase;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+/*there are four ways to display a tag in webpage
+property:display
+values as given below-
+1)block (which takes whole width of the webpage Note:width can be modified)
+2)inline(which takes width depending upon the content Note:width cannot be modified)
+3)inline block:which works same as inline but here the width can be modified
+4)None :makes the tag dissapear from the webpage
+*/
+/*visibility :hidden; this also make the element disappear but the space is occupied and no other element and come in*/
+/*
+Positioning:is used for positioning the elements in the webpage
+There are five different way from which you can position your elements.
+1)static(which is the default positioning given by the browser for all elements in webpage)
+2)relative(relative is basically moving the elements with respect to its previous position and note relative position leaves a ghost behind it and it doesnt affect other elements on the screen)
+3)absolute(it psitions the elements relative to the body or the parent element(relative) note: it does not leave any ghost so it affects other elements)
+4)fixed (it will stay fixed at its given place without moving for example navigation bar eventhough we scroll it stays fixed at its place)
+the 4 ways which can be moved are
+i)top
+ii)left
+iii)right
+iv)bottom
+*/
+/*
+font-weight property is used to make things bolder
+line-height property is used to leave space between lines(values should be given withput units.
+float property is used to wrap texts around the image images noramlly
+the float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it.
+clear property is like antifloat property
+*/
+/*Hi Edgars,
+
+When centering elements keep the following basic rules in mind:
+
+(A) When centering block level elements always use: margin: 0 auto; It is best to use this on elements that have a width of 90% or less. If you use margin: 0 auto; on elements that take up 100% width of it's parent container you will not see it center.
+
+(B) margin: 0 auto; will ONLY work on block level elements or elements set to display: block;
+
+(C) The width property does not work on inline elements such as span, but will work on the img element. Width does work on elements set to display: inline-block;
+
+(D) To center text use: text-align: center;
+
+The text-align property in CSS is used for aligning the inner content of a block element. I will want to put text-align in the block level elements CSS. For example:
+
+p {
+ text-align;
+}
+So, while text-align affects text, it also affects all inline and inline-block elements that are children of any block level elements.
+
+You will need to play around with centering elements. See how center works for inline vs block level elements. See how the width property effects inline vs block level elements. And so on.
+
+Thanks, Julie*/
+/*if we change the width the any text then the text-align doesn't work anymore in tat situation we have to use other  methods such as margin:0 auto;*/
+
+
+/*for font styling u can see google fonts :-https://fonts.google.com/*/
+/*font-size:-
+    (made for dynamic webpage)
+    (font size changes according to screen size)
+       1rem=1em=16px=100%
+*/
+/*font-weight determines how thicker the font should get */
+/*line-height determines the space between lines and no units should be specified*/
+/*for height and width rem unit doesnt suit*/
+/*when we want other elements to come on right or left side of an element float is used and float can only be inside a container(div) for now images and another div which is inside a div(width of this div to be decreased) can be floated*/ 
+/*To create button use this site https://cssbuttoncreator.com/*/
+
+/*Bootstrap*/
+/*Bootstrap makes it responsive(means making the website easily scale to be viewed in all devices) and contains a huge number of prestyled elements*/c
