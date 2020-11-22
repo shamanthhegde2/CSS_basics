@@ -35,7 +35,7 @@ h2{
 /*border:10px solid red;*/
 /*padding only pads the content not the background image or the color*/
 /*psuedo class for ex:- :hover*/
-/* margin affect only top and bottom in inline elements and not on the sides*/
+
 hr
 {
   height: 0px;
@@ -86,6 +86,7 @@ values as given below-
 3)inline block:which works same as inline but here the width can be modified
 4)None :makes the tag dissapear from the webpage
 */
+/* margin affect only top and bottom in inline elements and not on the sides*/
 /*visibility :hidden; this also make the element disappear but the space is occupied and no other element and come in*/
 /*
 Positioning:is used for positioning the elements in the webpage
