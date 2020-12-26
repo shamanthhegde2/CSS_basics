@@ -9,6 +9,7 @@ body{
 }
 
 /*height and width css property is used to change heright and width of an element*/
+/*give values of height and width in pixels or if u want to make it responsive to the screen size give in %(percent)*/
 /*border-style is used to change the style of the border*/
 /*to change the specific side of the border we have
    1)border-top-style
@@ -30,6 +31,10 @@ hr{
 /*font-size is used to change the size of the font*/
 h2{
     color: violet;
+}
+/*There are also something called as pesudo class which comes along the property or what we are going to change for example :hover*/
+h2:hover {
+  color: red;
 }
 /*height,width,border-color,border-width,border-style,font-size,margin,margin-top,margin-bottom,margin-left,margin-right,margin,padding,padding-top,padding-bottom,padding-left,padding-right*/
 /*border:10px solid red;*/
