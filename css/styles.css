@@ -36,6 +36,15 @@ h2{
 h2:hover {
   color: red;
 }
+/*There are many pseudo classes like this */
+a:link { color: blue; }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: yellow; }  /* Hovered links */
+a:active { color: red; }         /* Active links */ 
+
+/*:active is like it implements the property given on the element only when the mouse is pressed on the element*/
+/*:focus applies the propery when focused on a particular element such as input tag */
+
 /*height,width,border-color,border-width,border-style,font-size,margin,margin-top,margin-bottom,margin-left,margin-right,margin,padding,padding-top,padding-bottom,padding-left,padding-right*/
 /*border:10px solid red;*/
 /*padding only pads the content not the background image or the color*/
