@@ -139,7 +139,7 @@ When centering elements keep the following basic rules in mind:
 
 The text-align property in CSS is used for aligning the inner content of a block element. I will want to put text-align in the block level elements CSS. For example:
 
-/*use text-align to center block or inline-block elements and even contents and if we set a width constant which is less than 90% it is more or less inline which does not occupy full width that time use margin:0 auto;*/
+/*use text-align to center block or inline-block elements and even contents and if we set a width constant which is less than 90% it is more or less inline which does not occupy full width that time use margin:0
 
 p {
  text-align;
@@ -162,6 +162,8 @@ Thanks, Julie*/
 /*line-height determines the space between lines and no units should be specified*/
 /*for height and width rem unit doesnt suit*/
 /*when we want other elements to come on right or left side of an element float is used and float can only be inside a container(div) for now images and another div which is inside a div(width of this div to be decreased) can be floated*/ 
+/*The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow */
+/*clear property is used to make the text or images wrapped around an image which uses float to come out of its flow and back to normal simply opposite of float*/
 /*To create button use this site https://cssbuttoncreator.com/*/
 
 /*Bootstrap*/
