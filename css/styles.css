@@ -50,9 +50,9 @@ a:active { color: red; }         /* Active links */
 /*padding only pads the content not the background image or the color*/
 /*psuedo class for ex:- :hover*/
 
-/*normally div tag considers the height and width of the element and gets the height according to the element's height inside .if a padding is given it starts to consider the margin of the elements inside too so we have to be cautious by taking care of these things*/
+/*normally div tag considers the height and width of the element and gets the height according to the element's height inside .if a padding is given to the div it starts to consider the margin of the elements inside too so we have to be cautious by taking care of these things*/
 
-/*padding does not pad background-image or color*/
+
 hr
 {
   height: 0px;
@@ -138,6 +138,8 @@ When centering elements keep the following basic rules in mind:
 (D) To center text use: text-align: center;
 
 The text-align property in CSS is used for aligning the inner content of a block element. I will want to put text-align in the block level elements CSS. For example:
+
+/*use text-align to center block or inline-block elements and even contents and if we set a width constant which is less than 90% it is more or less inline which does not occupy full width that time use margin:0 auto;*/
 
 p {
  text-align;
